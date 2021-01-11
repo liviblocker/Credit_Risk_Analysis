@@ -5,7 +5,7 @@ I've been asked to work with the lead Data Scientist at LendingClub to use machi
 ## Results
 In the following results, I will break down the accuracy score and recall for all 6 models. The precision is the same for all 6 models (at 0.99), so it's the accuracy score and recall that will best determine the most effective model.
 
-# Naive Random Oversampling
+### Naive Random Oversampling
 ![NaiveRandomOversampling.png](https://github.com/liviblocker/Credit_Risk_Analysis/blob/main/Images/SMOTEENN.png)
 Accuracy score: 0.67
 
@@ -14,7 +14,7 @@ Precision: 0.99
 Recall: 0.61
 
 
-# SMOTE Oversampling
+### SMOTE Oversampling
 ![SMOTEOversampling.png](https://github.com/liviblocker/Credit_Risk_Analysis/blob/main/Images/SMOTEOversampling.png)
 Accuracy score: 0.66
 
@@ -23,7 +23,7 @@ Precision: 0.99
 Recall: 0.69
 
 
-# Cluster Centroids
+### Cluster Centroids
 ![ClusterCentroids.png](https://github.com/liviblocker/Credit_Risk_Analysis/blob/main/Images/ClusterCentroids.png)
 Accuracy score: 0.54
 
@@ -32,7 +32,7 @@ Precision: 0.99
 Recall: 0.42
 
 
-# SMOTEENN
+### SMOTEENN
 ![SMOTEENN.png](https://github.com/liviblocker/Credit_Risk_Analysis/blob/main/Images/BalancedRandomForestClassifier.png)
 Accuracy score: 0.64
 
@@ -41,7 +41,7 @@ Precision: 0.99
 Recall: 0.57
 
 
-# Balanced Random Forest Classifier
+### Balanced Random Forest Classifier
 ![BalancedRandomForestClassifier.png](https://github.com/liviblocker/Credit_Risk_Analysis/blob/main/Images/BalancedRandomForestClassifier.png)
 Accuracy score: 0.87
 
@@ -51,7 +51,7 @@ Recall: 0.87
 
 This model randomly under-samples each bootstrap sample to balance it.
 
-# Easy Ensemble AdaBoost Classifier
+### Easy Ensemble AdaBoost Classifier
 ![EasyEnsembleAdaBoostClassifier.png](https://github.com/liviblocker/Credit_Risk_Analysis/blob/main/Images/EasyEnsembleAdaBoostClassifier.png)
 Accuracy score: 0.94
 
@@ -67,5 +67,5 @@ Similar to the SMOTE Oversampling model, the Cluster Centroids algorithm identif
 
 The ensemble algorithms are the most effective models to determine high credit risk.
 
-# Recommendation
+### Recommendation
 This model has a high accuracy score, high precision, and high sensitivity. It has the highest F1 score, will most accurately determine who is at high credit risk.
